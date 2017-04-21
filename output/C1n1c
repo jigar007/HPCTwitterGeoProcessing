@@ -1,0 +1,38 @@
+('Job started on ', 'MPI_COMM_WORLD', 1, datetime.datetime(2017, 4, 5, 1, 59, 41, 548867))
+('Search ended on ', 'MPI_COMM_WORLD', 0, datetime.datetime(2017, 4, 5, 2, 6, 19, 343306))
+Ordered (rank) grid boxes based on total number of tweets made in each box:
+C2: 139352
+B2: 78698
+C3: 52776
+B3: 26232
+C4: 19455
+B1: 16384
+D4: 14555
+D3: 13308
+C1: 8374
+B4: 5455
+A3: 5041
+A2: 4159
+C5: 4029
+D5: 3163
+A1: 2546
+A4: 309
+Ordered (rank) the rows based on the total number of tweets in each row:
+C-Row: 223986
+B-Row: 126769
+D-Row: 31026
+A-Row: 12055
+Order (rank) the columns based on the total number of tweets in each column:
+Column2: 222209
+Column3: 97357
+Column4: 39774
+Column1: 27304
+Column5: 7192
+Total preprocessing time: 377.195011854 Seconds
+Total time: 397.803049088 Seconds
+T0tal time for actual processting: 20.6080372334 Seconds
+
+real	6m39.449s
+user	0m0.015s
+sys	0m0.025s
+1 nodes 1 core

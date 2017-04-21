@@ -1,0 +1,45 @@
+('Job started on ', 'MPI_COMM_WORLD', 8, datetime.datetime(2017, 4, 5, 1, 42, 51, 544500))
+('Search ended on ', 'MPI_COMM_WORLD', 1, datetime.datetime(2017, 4, 5, 1, 49, 54, 424314))
+('Search ended on ', 'MPI_COMM_WORLD', 2, datetime.datetime(2017, 4, 5, 1, 49, 54, 904858))
+('Search ended on ', 'MPI_COMM_WORLD', 3, datetime.datetime(2017, 4, 5, 1, 49, 56, 956240))
+('Search ended on ', 'MPI_COMM_WORLD', 4, datetime.datetime(2017, 4, 5, 1, 49, 57, 129531))
+('Search ended on ', 'MPI_COMM_WORLD', 5, datetime.datetime(2017, 4, 5, 1, 49, 59, 519984))
+('Search ended on ', 'MPI_COMM_WORLD', 6, datetime.datetime(2017, 4, 5, 1, 49, 59, 673684))
+('Search ended on ', 'MPI_COMM_WORLD', 7, datetime.datetime(2017, 4, 5, 1, 50, 0, 550894))
+('Search ended on ', 'MPI_COMM_WORLD', 0, datetime.datetime(2017, 4, 5, 1, 50, 0, 961371))
+Ordered (rank) grid boxes based on total number of tweets made in each box:
+C2: 139352
+B2: 78698
+C3: 52776
+B3: 26232
+C4: 19455
+B1: 16384
+D4: 14555
+D3: 13308
+C1: 8374
+B4: 5455
+A3: 5041
+A2: 4159
+C5: 4029
+D5: 3163
+A1: 2546
+A4: 309
+Ordered (rank) the rows based on the total number of tweets in each row:
+C-Row: 223986
+B-Row: 126769
+D-Row: 31026
+A-Row: 12055
+Order (rank) the columns based on the total number of tweets in each column:
+Column2: 222209
+Column3: 97357
+Column4: 39774
+Column1: 27304
+Column5: 7192
+Total preprocessing time: 416.499318123 Seconds
+Total time: 432.543435097 Seconds
+T0tal time for actual processting: 16.0441169739 Seconds
+
+real	7m13.744s
+user	0m0.031s
+sys	0m0.052s
+2 nodes 8 cores
