@@ -1,5 +1,5 @@
 <p align="center">
-<b>HPCTwitterGeoProcessing</b>
+<b>#HPCTwitterGeoProcessing</b>
 </p>
 
 MPI programming in Python 
