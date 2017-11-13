@@ -1,4 +1,5 @@
-#HPCTwitterGeoProcessing
+
+# HPCTwitterGeoProcessing
 
 This project is solving the problem of searching into a large dataset of twitter file geocode
 using high performance (HPC) facility named Spartan, this geocode is from one of any 16
@@ -14,5 +15,21 @@ understand. I have used mpi4py external package for implementing Message Passing
 way, it is the de facto industry standard and it is widely available as open source
 implementation.
 
+We have a huge dataset to process which can't be processed by our personal laptop's CPU (it'll
+take days to process). So that's why we are using spartan for that. Spartan is hybrid computing
+facilities with various cores at physical partition and over 400 virtual machines with over
+3,000 cores at cloud partition. (See below Picture)
+
+<img src="https://github.com/jigar007/HPCTwitterGeoProcessing/blob/master/spartan.jpg">
+
+the result is shown on the map. Analysis shown that near you go to CBD you more number of
+tweets are from there. (See below Picture)
+
 <img src="https://github.com/jigar007/HPCTwitterGeoProcessing/blob/master/map.png">
+
+Most of the time taken by the total process is for pre-processing data this includes reading
+from a file and catching location from each tweet and making a list of locations.Average
+actual processing time is around 8 seconds. In 8 seconds program finds from geo-location list
+that from which one of 16 box that location is from. (See below Picture)
+
 <img src="https://github.com/jigar007/HPCTwitterGeoProcessing/blob/master/graph.png">
