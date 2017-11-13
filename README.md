@@ -1,6 +1,4 @@
-<p align="center">
-<b>#HPCTwitterGeoProcessing</b>
-</p>
+>#HPCTwitterGeoProcessing
 
 MPI programming in Python 
 
