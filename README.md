@@ -1,4 +1,6 @@
+<b align="center"> 
 # HPCTwitterGeoProcessing
+</b>
 MPI programming in Python 
 
 
